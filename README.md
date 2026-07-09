@@ -1,1 +1,236 @@
-# USDT
+{
+  "name": "Tron Alliance List",
+  "logoURI": "https://list.tronalliance.cc/fav.ico",
+  "timestamp": 1778639859000,
+  "version": {
+    "major": 1,
+    "minor": 18,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "symbol": "SUN",
+      "name": "SUN",
+      "address": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/logo/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S.png"
+    },
+    {
+      "symbol": "JST",
+      "name": "JUST DAO",
+      "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/logo/just_icon.png"
+    },
+    {
+      "symbol": "BTT",
+      "name": "BitTorrent",
+      "address": "TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/logo/1002000.png"
+    },
+    {
+      "symbol": "NFT",
+      "name": "AINFT",
+      "address": "TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/TFczxzPhnThNSqr5by8tvxsdCFRRz6cPNq.png"
+    },
+    {
+      "symbol": "WIN",
+      "name": "WINkLink",
+      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://static.tronscan.org/profile_images/JKtJTydD_400x400.jpg"
+    },
+    {
+      "symbol": "WBTT",
+      "name": "Wrapped BitTorrent",
+      "address": "TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://static.tronscan.org/production/logo/TKfjV9RNKJJCqPvBtK8L7Knykh7DNWvnYt.png"
+    },
+    {
+      "symbol": "sTRX",
+      "address": "TU3kjFuhtEo42tsCBtfYUAZxoqQ4yuSLQ5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "staked TRX",
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TU3kjFuhtEo42tsCBtfYUAZxoqQ4yuSLQ5.png"
+    },
+    {
+      "symbol": "WTRX",
+      "name": "Wrapped TRX",
+      "address": "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR.png?t=1598430824415"
+    },
+    {
+      "symbol": "USDD",
+      "name": "Decentralized USD",
+      "address": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz.png"
+    },
+    {
+      "symbol": "stUSDT",
+      "address": "TThzxNRLrW2Brp9DcTQU8i4Wd9udCWEdZ3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Staked USDT",
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/stUSDT_logo.png"
+    },
+    {
+      "symbol": "TUSD",
+      "name": "TrueUSD",
+      "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/logo/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4.png"
+    },
+    {
+      "symbol": "USDJ",
+      "name": "JUST Stablecoin v1.0",
+      "address": "TMwFHYXLJaRUPeW6421aqXL4ZEzPRFGkGT",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/logo/usdj.png"
+    },
+    {
+      "symbol": "HT",
+      "name": "HuobiToken",
+      "address": "TDyvndWuvX5xTBwHPYJi7J3Yq8pq8yh62h",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/logo/TDyvndWuvX5xTBwHPYJi7J3Yq8pq8yh62h.png"
+    },
+    {
+      "symbol": "HTX",
+      "address": "TUPM7K8REVzD2UdV4R5fe5M8XbnR2DdoJ6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "HTX",
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/HTX.png"
+    },
+    {
+      "symbol": "U5DT",
+      "name": "U5DT",
+      "address": "TLpYaPQKy7xoGTF91JaAkZahrsdKbr1dTW",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://static.tronscan.org/production/logo/usdtlogo.png"
+    },
+    {
+      "symbol": "USD1",
+      "name": "World Liberty Financial USD",
+      "address": "TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc.png"
+    },
+    {
+      "symbol": "U",
+      "name": "United Stables",
+      "address": "TFNirp6PbqYE1ZTtWuCMUKJWLNZkoCoeFJ",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TFNirp6PbqYE1ZTtWuCMUKJWLNZkoCoeFJ.png"
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "address": "TN3W4H6rK2ce4vX9YnFQHwKENnHjoxb3m9",
+      "chainId": 1,
+      "decimals": 8,
+      "logoURI": "https://static.tronscan.org/production/logo/TN3W4H6rK2ce4vX9YnFQHwKENnHjoxb3m9.png"
+    },
+    {
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "address": "TYhWwKpw43ENFWBTGpzLHn3882f2au7SMi",
+      "chainId": 1,
+      "decimals": 8,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TYhWwKpw43ENFWBTGpzLHn3882f2au7SMi.png?t=1755231610872"
+    },
+    {
+      "symbol": "ETH",
+      "address": "THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum",
+      "logoURI": "https://static.tronscan.org/production/logo/THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF.png"
+    },
+    {
+      "symbol": "ETHB",
+      "address": "TRFe3hT5oYhjSZ6f3ji5FJ7YCfrkWnHRvh",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Ethereum BTTC-Bridged",
+      "logoURI": "https://static.tronscan.org/production/logo/TRFe3hT5oYhjSZ6f3ji5FJ7YCfrkWnHRvh.png"
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "OFFICIAL TRUMP",
+      "address": "TXZQuyCasxN42bjAcYpP2xwYVMCF6gHBnv",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TXZQuyCasxN42bjAcYpP2xwYVMCF6gHBnv.jpg"
+    },
+    {
+      "symbol": "LTC",
+      "name": "Litecoin",
+      "address": "TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd",
+      "chainId": 1,
+      "decimals": 8,
+      "logoURI": "https://static.tronscan.org/production/logo/TR3DLthpnDdCGabhVDbD3VMsiJoCXY3bZd.png"
+    },
+    {
+      "symbol": "SUNOLD",
+      "name": "SUNOLD",
+      "address": "TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/TKkeiboTkxXKJpbmVFbv4a8ov5rAfRDMf9.png"
+    },
+    {
+      "symbol": "USDDOLD",
+      "name": "Decentralized USD OLD",
+      "address": "TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn.png"
+    },
+    {
+      "symbol": "USDCOLD",
+      "name": "USD Coin Old",
+      "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+      "chainId": 1,
+      "decimals": 6,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz81.png"
+    },
+    {
+      "symbol": "SUNDOG",
+      "name": "Sundog",
+      "address": "TXL6rJbvmjD46zeN1JssfgxvSo99qC8MRT",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/sun/thumb/TXL6rJbvmjD46zeN1JssfgxvSo99qC8MRT.png"
+    },
+    {
+      "symbol": "KGST",
+      "name": "KGST",
+      "address": "TN3cfcFhLrdNZhMdHZVZ4z2XFWb7uB9CXg",
+      "chainId": 1,
+      "decimals": 18,
+      "logoURI": "https://static.tronscan.org/production/upload/logo/new/TN3cfcFhLrdNZhMdHZVZ4z2XFWb7uB9CXg.jpg"
+    }
+  ]
+}
