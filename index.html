@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>USDT Token</title>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0d1117; color: #e6edf3;
+         display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+  .card { background: #161b22; border: 1px solid #30363d; border-radius: 16px; padding: 32px;
+          max-width: 520px; width: 92%; text-align: center; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  .sub { color: #8b949e; font-size: 14px; margin-bottom: 24px; }
+  .tok { background: #21262d; border-radius: 12px; padding: 16px; margin-bottom: 20px;
+         display: flex; align-items: center; gap: 14px; text-align: right; }
+  .tok img { width: 48px; height: 48px; border-radius: 50%; }
+  .tok .meta { flex: 1; }
+  .tok .name { font-weight: 600; font-size: 16px; }
+  .tok .addr { color: #8b949e; font-size: 12px; word-break: break-all; direction: ltr; }
+  button { background: #238636; color: white; border: none; border-radius: 10px;
+           padding: 14px 28px; font-size: 16px; font-weight: 600; cursor: pointer; width: 100%; }
+  button:hover { background: #2ea043; }
+  button:disabled { background: #30363d; color: #8b949e; cursor: wait; }
+  #status { margin-top: 14px; font-size: 13px; color: #8b949e; min-height: 18px; }
+  .note { margin-top: 18px; color: #6e7681; font-size: 12px; line-height: 1.7; }
+  code { background: #21262d; padding: 2px 6px; border-radius: 6px; font-size: 11px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>USDT Token</h1>
+  <p class="sub">سيفتح مربع حوار في المحفظة لعرض الرمز ومعه الشعار</p>
+
+  <div class="tok">
+    <img id="logo" src="https://lime-actual-crayfish-446.mypinata.cloud/ipfs/bafkreiawi4rqu4pwr7wg6scrf73kjrqxdkskefbvdvcimsw5dzemwidski?pinataGatewayToken=UHgW7lwM8rQWhHJv6jto6yxd6amWepGnVLm09u9UWTCXoaVlq56dkrGS_RtIEevU" alt="شعار التوكن" onerror="this.style.display='none'">
+    <div class="meta">
+      <div class="name" id="tokname">USDT</div>
+      <div class="addr" id="tokaddr">0x2d11835b594203D77d5Ed4B828843f6FCc4A8888</div>
+    </div>
+  </div>
+
+  <button id="addBtn" onclick="addToken()">ADD TO WALLET</button>
+  <div id="status"></div>
+</div>
+
+<script>
+const TOKEN = {
+  address: "0x2d11835b594203D77d5Ed4B828843f6FCc4A8888",
+  symbol: "USDT",
+  decimals: 18,
+  image: "https://lime-actual-crayfish-446.mypinata.cloud/ipfs/bafkreiawi4rqu4pwr7wg6scrf73kjrqxdkskefbvdvcimsw5dzemwidski?pinataGatewayToken=UHgW7lwM8rQWhHJv6jto6yxd6amWepGnVLm09u9UWTCXoaVlq56dkrGS_RtIEevU",
+};
+
+async function addToken() {
+  const btn = document.getElementById('addBtn');
+  const st = document.getElementById('status');
+  btn.disabled = true; st.textContent = 'WAIT...';
+
+  if (!window.ethereum) {
+    st.textContent = 'لم يتم اكتشاف محفظة. افتح هذه الصفحة داخل متصفح DApp (مثل متصفح المحفظة).';
+    btn.disabled = false; return;
+  }
+  try {
+    const ok = await window.ethereum.request({
+      method: 'wallet_watchAsset',
+      params: { type: 'ERC20', options: TOKEN },
+    });
+    st.textContent = ok ? '✅ أُضيف التوكن إلى المحفظة بنجاح' : 'تم رفض الطلب من المستخدم';
+  } catch (e) {
+    st.textContent = 'خطأ: ' + (e.message || e);
+  }
+  btn.disabled = false;
+}
+</script>
+</body>
+</html>
